@@ -709,7 +709,7 @@ input {
 -------------------------*/
 .breadcrum-area {
     background: var(--gradient-primary);
-    padding: 250px 0 100px;
+    padding: 200px 0 100px;
     margin-top: -160px;
     position: relative;
     z-index: 1;
@@ -873,25 +873,25 @@ input {
 }
 
 .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-    bottom: 20px;
+    bottom: 120px;
     right: 100px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 599px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        right: -5px;
+        right: -50px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        right: -30;
+        right: 0;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        margin: -0px 0 0;
+        margin: -40px 0 0;
     }
 
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 img {
@@ -4906,13 +4906,13 @@ Pagination
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .services-grid {
-        padding: 40px 150px;
+        padding: 40px 15px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .services-grid {
-        padding: 40px 15px;
+        padding: 40px 25px;
     }
 }
 
