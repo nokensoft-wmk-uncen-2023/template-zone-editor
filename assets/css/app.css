@@ -709,7 +709,7 @@ input {
 -------------------------*/
 .breadcrum-area {
     background: var(--gradient-primary);
-    padding: 200px 0 100px;
+    padding: 250px 0 100px;
     margin-top: -160px;
     position: relative;
     z-index: 1;
@@ -841,19 +841,20 @@ input {
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .breadcrumb-banner .banner-thumbnail {
-        right: -50px;
-        bottom: -80px;
+        right: -10px;
+        bottom: -auto;
+        width: 100;
     }
 
     .breadcrumb-banner .banner-thumbnail img {
-        width: 50%;
+        width: 90%;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner .banner-thumbnail {
         right: -40px;
-        bottom: -50px;
+        bottom: -10px;
     }
 
     .breadcrumb-banner .banner-thumbnail img {
@@ -873,25 +874,25 @@ input {
 }
 
 .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-    bottom: 120px;
+    bottom: 20px;
     right: 100px;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+@media only screen and (min-width: 200px) and (max-width: 599px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        right: -50px;
+        right: -5px;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        right: 0;
+        right: -30;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 {
-        margin: -40px 0 0;
+        margin: -0px 0 0;
     }
 
     .breadcrumb-banner .banner-thumbnail.thumbnail-2 img {
@@ -1890,18 +1891,18 @@ Pagination
     top: 0;
     right: 0;
     text-align: right;
-    width: 135%;
+    width: 80%;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .shape-group-18 .shape.shape-1 img {
-        width: 130%;
+        width: 60%;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .shape-group-18 .shape.shape-1 img {
-        width: 100%;
+        width: 200%;
     }
 }
 
@@ -4907,13 +4908,13 @@ Pagination
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .services-grid {
-        padding: 40px 15px;
+        padding: 40px 150px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .services-grid {
-        padding: 40px 25px;
+        padding: 40px 15px;
     }
 }
 
