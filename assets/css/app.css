@@ -1890,12 +1890,12 @@ Pagination
     top: 0;
     right: 0;
     text-align: right;
-    width:65%;
+    width: 65%;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .shape-group-18 .shape.shape-1 img {
-        width: 130%;
+        width: 70%;
     }
 }
 
