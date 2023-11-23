@@ -854,7 +854,7 @@ input {
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner .banner-thumbnail {
         right: -40px;
-        bottom: -10px;
+        bottom: -20px;
     }
 
     .breadcrumb-banner .banner-thumbnail img {
