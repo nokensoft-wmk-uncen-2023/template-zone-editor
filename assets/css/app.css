@@ -710,7 +710,7 @@ input {
 .breadcrum-area {
     background: var(--gradient-primary);
     padding: 250px 0 100px;
-    margin-top: -160px;
+    margin-top: -80px;
     position: relative;
     z-index: 1;
 }
