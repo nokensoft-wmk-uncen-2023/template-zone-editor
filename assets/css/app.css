@@ -177,6 +177,7 @@ ol.list-style li::marker {
 .row > [class*=col] {
     padding-left: 15px;
     padding-right: 15px;
+     padding-bottom: 15px;
 }
 
 .row.g-0 {
